@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@800&display=swap');
+
+:root {
+    --cor1: rgb(0, 124, 207);
+    --cor2: rgb(0, 99, 166);
+    --cor3: rgb(0, 49, 81);
+    --cor4: rgb(0, 0, 0);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(to left, var(--cor1), var(--cor2), var(--cor3), var(--cor4));
+}
+
+.nomesite {
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+    padding-left: 70px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin-left: 10px;
+    color: rgb(0, 153, 255);
+    font-weight: normal;
+    padding-left: 40px;
+}
+
+nav p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: var(--cor1);
+    color: white;
+    transition-duration: 0.4s;
+    border-radius: 3px;
+}
+
+.planosp {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+    padding: 0px 20px;
+    margin: 10px;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.planobasic {
+    padding: 15px;
+    border: 2px solid white;
+    margin: auto;
+    max-width: 260px;
+}
+
+.planobasic h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 153, 255);
+}
+
+.planobasic .preco {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+.planobasic p {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.planobasic .btn {
+    padding: 20px;
+}
+
+.planobasic a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 153, 255);
+    padding: 10px;
+}
+
+.planobasic a:hover {
+    background-color: rgb(0, 94, 157);
+    transition-duration: 0.6s;
+}
+
+/*PLANO MEDIO*/
+
+.planomedio {
+    padding: 15px;
+    border: 2px solid white;
+    max-width: 260px;
+    margin: auto;
+
+}
+
+.planomedio h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 153, 255);
+}
+
+.planomedio .preco {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+.planomedio p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.planomedio a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 153, 255);
+    padding: 10px;
+}
+
+.planomedio .btn {
+    padding: 20px;
+}
+
+.planomedio a:hover {
+    background-color: rgb(0, 94, 157);
+    transition-duration: 0.6s;
+}
+
+/*PLANO MASTER*/
+
+.planomaster {
+    padding: 15px;
+    border: 2px solid white;
+    max-width: 260px;
+    margin: auto;
+
+}
+
+.planomaster h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 153, 255);
+}
+
+.planomaster .preco {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+.planomaster p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.planomaster a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 153, 255);
+    padding: 10px;
+}
+
+.planomaster .btn {
+    padding: 20px;
+}
+
+.planomaster a:hover {
+    background-color: rgb(0, 94, 157);
+    transition-duration: 0.6s;
+}
